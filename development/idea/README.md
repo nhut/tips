@@ -1,7 +1,12 @@
 # IntelliJ IDEA tips
-## Plugins<br/>
-Generate UUID (after install, class needs to implement Serializable interface and then right click "Generate..." --> SerialVersionUID):<br/>
-https://plugins.jetbrains.com/plugin/8320-uuid-generator<br/>
+## Plugins must have:<br/>
+1. Generate UUID (after install, class needs to implement Serializable interface and then right click "Generate..." --> SerialVersionUID):<br/>
+* https://plugins.jetbrains.com/plugin/8320-uuid-generator<br/>
+2. Sonarqube:<br/>
+* https://www.sonarlint.org/intellij/index.html<br/>
+3. Checkstyle:<br/>
+*  https://plugins.jetbrains.com/plugin/1065-checkstyle-idea<br/>
+
 <br/>
 <br/>
 ## Usage tips:<br/>
