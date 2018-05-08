@@ -23,3 +23,12 @@ $ umount /media/dvd
 
 ### Restart daemon
 systemctl restart <service-name>
+
+
+
+## Subsystem Linux
+### Change VIM color scheme permanently
+$ vi ~/.vimrc
+Add following lines:
+colo desert
+syntax on
