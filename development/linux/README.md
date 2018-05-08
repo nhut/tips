@@ -20,3 +20,6 @@ $ cd /media/dvd
 $ ./VBoxLinuxAdditions.run --nox11 #--nox11 means there is no UI in this OS
 $ cd
 $ umount /media/dvd
+
+### Restart daemon
+systemctl restart <service-name>
