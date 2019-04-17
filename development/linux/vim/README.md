@@ -1,3 +1,8 @@
+### Add vim color theme to desert
+$ echo \
+"colo desert
+syntax on" > ~/.vimrc
+
 ### To indent the whole file automatically:
 gg
 =G
