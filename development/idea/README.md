@@ -15,3 +15,20 @@ https://i.stack.imgur.com/Dsl3e.png<br/>
 <br/>
 ## StackOverflow tips:<br/>
 * https://stackoverflow.com/questions/9030986/intellij-is-it-possible-to-add-overrrides-to-all-methods-of-a-particular-interf<br/>
+<br/>
+## Spring devtools:<br/>
+<p>
+https://www.metakoder.com/blog/spring-boot-devtools-on-intellij
+
+1. Add Spring DevTools dependency to pom.xml:
+<dependency>
+   <groupId>org.springframework.boot</groupId>
+   <artifactId>spring-boot-devtools</artifactId>
+   <scope>runtime</scope>
+</dependency>
+2. Changes in IntelliJ build configuration
+Go to Preference -> build,execution,deployment. -> Compiler and Enable build project automatically.
+3. Changes in IntelliJ registory
+   Go to Cmd+Shift +A (Mac) or Ctrl+ Shift+A (Windows) -> Registry
+   Enable compiler.automake.allow.when.app.running
+<p>
