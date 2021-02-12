@@ -1,0 +1,9 @@
+===WSL2 config:===
+%USERPROFILE%\.wslconfig
+[wsl2]
+memory=8GB
+swap=0
+localhostForwarding=true
+
+[user]
+default=<ubuntu username>
