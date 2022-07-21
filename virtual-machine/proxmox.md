@@ -21,3 +21,15 @@ deb http://download.proxmox.com/debian/pve bullseye pve-no-subscription
 # security updates
 deb http://security.debian.org/debian-security bullseye-security main contrib
 ```
+
+#Watchdog
+Source: https://it-notes.dragas.net/2018/09/16/proxmox-enable-and-use-watchdog-to-reboot-stuck-servers/
+config files, add:
+```
+cd /etc/pve/qemu-server
+nano 101.conf
+```
+Add following line:
+```
+watchdog: model=i6300esb,action=reset
+```
