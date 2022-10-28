@@ -1,6 +1,10 @@
 # Upgrade Proxmox
 apt update && apt upgrade -y && apt dist-upgrade -y
 
+# Remove Proxmox enterprise
+nano /etc/apt/sources.list.d/pve-enterprise.list
+-> comment first line -> Save -> exit.
+
 # Remove Proxmox Subscription Notice
 Source: https://johnscs.com/remove-proxmox51-subscription-notice/
 ```
@@ -21,6 +25,16 @@ deb http://download.proxmox.com/debian/pve bullseye pve-no-subscription
 # security updates
 deb http://security.debian.org/debian-security bullseye-security main contrib
 ```
+
+# Fail2Ban
+apt install fail2ban
+systemctl enable fail2ban
+systemctl start fail2ban
+
+# Get CPU temperature
+apt update && apt install lm-sensors hddtemp -y
+sensors-detect
+sensors
 
 # Watchdog
 Source: https://it-notes.dragas.net/2018/09/16/proxmox-enable-and-use-watchdog-to-reboot-stuck-servers/ \
