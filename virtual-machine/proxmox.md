@@ -32,8 +32,8 @@ systemctl enable fail2ban
 systemctl start fail2ban
 
 # Get CPU temperature
-apt update && apt install lm-sensors hddtemp -y
-sensors-detect
+apt update && apt install lm-sensors hddtemp -y<br>
+sensors-detect<br>
 sensors
 
 # Watchdog
