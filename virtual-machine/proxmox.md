@@ -27,8 +27,8 @@ deb http://security.debian.org/debian-security bullseye-security main contrib
 ```
 
 # Fail2Ban
-apt install fail2ban
-systemctl enable fail2ban
+apt install fail2ban<br>
+systemctl enable fail2ban<br>
 systemctl start fail2ban
 
 # Get CPU temperature
