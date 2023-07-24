@@ -52,7 +52,7 @@ watchdog: model=i6300esb,action=reset
 1. SSH to Proxmox.
 2. In the shell, at the command prompt enter<br>
 To see the list of available CPU governor states:<br>
-* cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_available_governors
+* cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_available_governors<br>
 To check what you currently is running:<br>
 * cat /sys/devices/system/cpu/cpu*/cpufreq/scaling_governors
 3. To enable a more power efficient state:
