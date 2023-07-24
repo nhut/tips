@@ -50,7 +50,7 @@ watchdog: model=i6300esb,action=reset
 
 # Set to powersave mode
 1. SSH to Proxmox.
-2. In the shell, at the command prompt enter<br>
+2. In the shell, at the command prompt enter
 To see the list of available CPU governor states:
 * cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_available_governors<br>
 To check what you currently is running:<br>
