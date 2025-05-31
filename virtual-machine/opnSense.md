@@ -19,6 +19,6 @@ service fail2ban onestart
 # Install SSHPass
 pkg install wget<br>
 wget https://pkg.freebsd.org/FreeBSD:14:amd64/latest/All/sshpass-1.10_1.pkg<br>
-pkg add sshpass-1.10.pkg<br>
+pkg add sshpass-1.10_1.pkg<br>
 <br>
 Use: sshpass -p "myPassword" ssh -o StrictHostKeyChecking=accept-new username@192.168.1.12
